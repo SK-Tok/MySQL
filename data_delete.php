@@ -13,7 +13,7 @@ try{
 //データーベースに接続
     $pdo = new PDO($dsn, $user, $password);
 
-  //ここに処理を記載
+        //処理
 	$sql = "DELETE FROM table1 WHERE name = :name" ;
 	$result = $pdo->prepare($sql);
 	$array = array(':name' => 'name1');
