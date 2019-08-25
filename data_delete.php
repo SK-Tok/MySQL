@@ -1,4 +1,4 @@
-//deleteによる削除処理
+//deleteによるデータの削除処理
 
 <?php
 //DBにMysql、データベース名・testを指定。
