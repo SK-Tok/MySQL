@@ -1,3 +1,5 @@
+//selectによるデータ表示処理
+
 <?php
 //DBにMysql、データベース名・testを指定。
 $dsn = 'mysql:dbname=dbname;host=localhost';
